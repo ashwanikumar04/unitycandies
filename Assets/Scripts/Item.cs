@@ -6,6 +6,7 @@ public class Item : MonoBehaviour
 {
 
     public int Id;
+    public Image currentImage;
     public void Start()
     {
         foreach (Transform localTransform in transform)
